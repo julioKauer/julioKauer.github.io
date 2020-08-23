@@ -1,0 +1,34 @@
+:root {/* CSS HEX */
+--gunmetal: #292f36ff;
+--indigo-dye: #284969ff;
+--rose-dust: #9f6c7eff;
+--baby-powder: #f4f5f0ff;
+--raw-umber: #916a46ff;
+}
+
+body {
+    background-color: var(--gunmetal);
+    color: var(--baby-powder);
+    font-family: 'Red Rose', cursive;
+}
+h1 {
+    font-family: 'Audiowide', cursive;
+    font-size: 60px;
+    font-weight: lighter;
+    text-shadow: 2px 2px 5px var(--indigo-dye);
+}
+
+#foto {
+    border-radius: 10px 50px 10px 50px;
+    box-shadow: 2px 2px 5px var(--rose-dust);
+}
+
+a{
+    text-decoration: none;
+    color: var(--raw-umber);
+    text-shadow: 2px 2px 5px var(--rose-dust);
+}
+
+a:hover{
+    color: var(--indigo-dye);
+}
