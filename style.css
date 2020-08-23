@@ -6,21 +6,26 @@
 --raw-umber: #916a46ff;
 }
 
+/* mobile first */
+
 body {
     background-color: var(--gunmetal);
-    color: var(--baby-powder);
+    color: var(--rose-dust);
     font-family: 'Red Rose', cursive;
 }
 h1 {
     font-family: 'Audiowide', cursive;
     font-size: 60px;
     font-weight: lighter;
-    text-shadow: 2px 2px 5px var(--indigo-dye);
+    text-shadow: 0px 0px 15px var(--baby-powder);
+    color: var(--indigo-dye);
 }
 
 #foto {
     border-radius: 10px 50px 10px 50px;
     box-shadow: 2px 2px 5px var(--rose-dust);
+    width: 80%;
+    margin-left: 10%;
 }
 
 a{
@@ -31,4 +36,14 @@ a{
 
 a:hover{
     color: var(--indigo-dye);
+}
+
+strong {
+    font-weight: 500;
+    text-shadow: 0px 0px 3px var(--indigo-dye);
+    color: var(--baby-powder);
+}
+
+.lista{
+    font-size: 1.3em;
 }
